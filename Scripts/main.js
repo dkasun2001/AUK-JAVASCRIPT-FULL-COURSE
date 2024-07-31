@@ -147,7 +147,7 @@ console.log(a); */
 
 // ----------------------------------------- Object
 
-let a = {
+/* let a = {
   name: "Dinusha Kasun",
   age: 23,
   canFly: true,
@@ -160,6 +160,127 @@ let a = {
 console.log(a["city"]["address1"]);
 
 a.clss = "Javascript full course";
+console.log(a) */
+
+// ----------------------------------------- Function
+
+/* function displayName(name, age) {
+  let clz = prompt("Enter your class?");
+  console.log(`Your name is ${name} and you are ${age} `);
+
+  return age;
+}
+
+console.log(displayName("Kasun", 23, "js"));
+console.log(displayName("Dinu", 26, "php"));
+console.log(displayName("Kasun", 23, "js", "java"));
+
+let displayName1= function( ){
+
+} */
+
+// ----------------------------------------- Arrow Function
+
+/* let newFun = (name) => {
+  console.log(name);
+};
+ newFun("DK") */
+
+// ----------------------------------------- Comparison Operators
+
+/* let a = 5,
+  b = 6;
+console.log(a > b);
+console.log(a < b);
+console.log(a >= b);
+console.log(a <= b);
+console.log(a == b);
+console.log(a === b);
+console.log(a != b);
+console.log(a !== b); */
+
+// ----------------------------------------- conditional statement
+// ----------------------------------------- If else
+
+/* let marks = 50;
+
+if (marks > 75) {
+  console.log("A");
+} else if (marks > 65) {
+  console.log("B");
+} else if (marks > 55) {
+  console.log("C");
+} else if (marks > 35) {
+  console.log("S");
+} else {
+  console.log("Fail");
+}
+  */
+
+/* let marks = 50;
+marks > 75
+  ? console.log("A")
+  : marks > 65
+  ? console.log("B")
+  : marks > 55
+  ? console.log("C")
+  : marks > 35
+  ? console.log("S")
+  : console.log("Fail");
+ */
+
+// ----------------------------------------- switch
+
+/* let a = 5;
+switch (a) {
+  case 1:
+    {
+      console.log("Jan");
+    }
+    break;
+  case 2:
+    console.log("Feb");
+    break;
+  case 3:
+    console.log("Mar");
+    break;
+  case 4:
+  case 5:
+  case 6:
+    console.log("June");
+    break;
+  case 7:
+    console.log("July");
+    break;
+  default:
+    break;
+}
+ */
+
+// ----------------------------------------- For loop
+
+/* for (let i = 1; i <= 100; i++) {
+  console.log(i);
+} */
+
+/* let i = 1;
+console.log(i);
+console.log(++i);
+console.log(i++); // Post increment */
+
+// ----------------------------------------- while
+
+/* let a = 1;
+while (a <= 10) {
+  console.log(a);
+  a++;
+}
+ */
+
+// ----------------------------------------- do while
+
+/* let a = 1;
+do {
 console.log(a)
-
-
+  a++
+} while (a<=10); */
