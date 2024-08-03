@@ -284,3 +284,71 @@ do {
 console.log(a)
   a++
 } while (a<=10); */
+
+// -----------------------------------------
+
+/* let stdMarks = [];
+const noStudents = prompt(`Enter Student Count`);
+
+for (let i = 0; i < noStudents; i++) {
+  stdMarks.push(prompt(`Enter ${i + 1} Student Marks`));
+}
+
+for (let i = 0; i < noStudents; i++) {
+  if (stdMarks[i] >= 50) {
+    console.log(`Student ${i + 1} is PASS`);
+  } else {
+    console.log(`Student ${i + 1} is FAIL`);
+  }
+} */
+
+/* let a = 0;
+while (a < noStudents) {
+  if (stdMarks[i] >= 50) {
+    console.log(`Student ${a + 1} is PASS`);
+  } else {
+    console.log(`Student ${a + 1} is FAIL`);
+  }
+}
+ */
+
+// ----------------------------------------- For Each
+// can't return values using forEach
+let a = [12, "amila", 3.5, true, "upul", "kandy"];
+
+/* for (let i = 0; i < a.length; i++) {
+  console.log(a[i]);
+} */
+
+/* a.forEach((el,index,) => {
+  console.log(el,index);
+}); */
+
+// ----------------------------------------- Map
+// can return values using map
+
+/* let result = a.map((el, index) => {
+  return [el, index];
+});
+
+console.log(result);
+console.log(result[0][1]); */
+
+/* for(index in a){
+  console.log(a[index]);
+} */
+
+/* let obj = {
+  name:"kasun",
+  age: 23,
+  city:"kandy"
+}
+
+for(key in obj){
+  console.log(obj[key]);
+} */
+
+/* let arr = [1, 2, 3, 4, 5, 6];
+let result = arr.map((e, index) => ({ val: e ** 2, index: index }));
+console.log(result); */
+
