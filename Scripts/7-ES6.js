@@ -23,14 +23,30 @@ const {
 } = obj;
 console.log(name, address1);
 
-//---------------------------------------------------- 
+//---------------------------------------------------- Spread Oparetors
 
-let newObj = obj;
+let newObj = {
+  ...obj,
+  a() {
+    console.log("I'm Function");
+  },
+  printYourName(yname) {
+    console.log(yname);
+  },
+};
 
-console.log(`obj value:`,obj);
-console.log(`newObj value:`,newObj);
+console.log(`obj value:`, obj);
+console.log(`newObj value:`, newObj.printYourName("kaasun"));
 
 obj.city = "Colombo";
 
-console.log(`Updated obj:`,obj);
+console.log(`Updated obj:`, obj);
 console.log(`newObj value:`, newObj);
+
+let newArr = [...arr];
+console.log(arr);
+console.log(newArr);
+
+arr.push(7);
+console.log(arr);
+console.log(newArr);
